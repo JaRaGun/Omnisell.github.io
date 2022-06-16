@@ -1,0 +1,124 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg.webp) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar
+{
+    padding: 0;
+}
+.omnisell
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #FAF4B7;
+}
+.unordered
+{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.cont
+{
+    background:#2E0249;
+    padding: 10px;
+}
+
+.unordered a
+{
+    color: #FAF4B7;
+}
+
+.unordered a:hover
+{
+    color: #CDF0EA
+}
+
+.search
+{
+    color: #F9F9F9;
+    outline-color: #CDF0EA;
+    outline-style:outset;
+}
+
+.search:hover
+{
+    color: #2E0249;
+    outline: #F9F9F9;
+    background: #CDF0EA;
+}
+
+.navbar-toggler
+{
+    background-color: #FAF4B7;
+}
+.carousel-item
+{ 
+    background: black;
+    height: 39em;
+    position: relative;
+    color: #F9F9F9;
+    background-size: cover;
+    background-position: center;
+}
+.container
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom:100px;
+}
+
+.container h1
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+.container p
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+}
+
+
+.container a
+{
+    font-size: 30px;
+    color: #F9F9F9;
+    outline-style: solid;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.container a:hover
+{
+   background-color: #CDF0EA;
+   color: #16003B;
+   outline-style: solid;
+}
+.overlay-image
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+@media screen and (max-width:480px) {
+    .unordered
+    {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+}
